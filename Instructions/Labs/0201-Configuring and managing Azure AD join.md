@@ -28,7 +28,7 @@ You need to configure Entra ID device settings to ensure that all users are allo
 
    > The Microsoft Entra admin center opens.
 
-4. In the Microsoft Entra admin center, in the navigation pane, select **Devices**, and then select **All devices**.
+4. In the Microsoft Entra admin center, in the navigation pane, select **Entra ID** -> **Devices**, and then select **All devices**.
 
    > Notice that there are no devices found, as you have not joined any devices yet.
 
@@ -54,7 +54,7 @@ You need to configure Entra ID device settings to ensure that all users are allo
 
 13. On the Device settings page, select **Save**.
 
-14. Select **Authentication methods**.
+14. Select **Entra ID** in the navigation then select **Authentication methods**.
 
 15. Select **SMS**.
 
@@ -116,7 +116,7 @@ You need to configure Entra ID device settings to ensure that all users are allo
 
 9. Switch to **SEA-SVR1**.
 
-10. In Microsoft Edge, in the Microsoft Entra admin center, select **Devices**, and then select **All devices**. 
+10. In Microsoft Edge, in the Microsoft Entra admin center, select **Entra ID** ->  **Devices**, and then select **All devices**. 
 
     > In the Devices pane, notice that SEA-WS1 is listed. 
 
@@ -284,7 +284,7 @@ Some Contoso Windows devices are currently joined to the local Active Directory 
 
 8. Switch to **SEA-SVR1** and switch to the Microsoft Entra admin center.
 
-9. Select **Devices** > **All devices**. 
+9. Select **Entra ID** > **Devices** > **All devices**. 
 
 10. Verify that **SEA-CL2** has **Microsoft Entra hybrid joined** as value for the row **Join Type**. If necessary, select the **Refresh** button if SEA-CL2 is not listed.
 
