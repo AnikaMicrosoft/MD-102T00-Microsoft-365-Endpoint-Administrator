@@ -48,11 +48,11 @@ You've also been told that several more employees will be hired over the next co
 
 8. At the Stay signed in prompt, select **No**. The Entra admin center opens.
 
-9. In the Microsoft Entra admin center, in the navigation pane, select **Users**.
+9. In the Microsoft Entra admin center, in the navigation pane, select **Entra ID** -> **Users**.
 
     > Take note of the users that already exist as members of the Microsoft Entra ID. The **On-premises sync enabled** column states **No** for all current users. This indicates that each user was created directly in Microsoft Entra ID and not synchronized from an on-premises directory service.
 
-10. On the **Users | All users** page, select **New user** then select **Create new user**.
+10. On the **Users | All users** page, select **+ New user** then select **Create new user**.
 
 11. On the **Create new user** page, enter the following:
 
@@ -92,7 +92,7 @@ You've also been told that several more employees will be hired over the next co
 
 24. Select **Create**.
 
-25. On the **Users | All users** page, select **New user** then select **Create new user**.
+25. On the **Users | All users** page, select **+New user** then select **Create new user**.
 
 26. On the **Create new user** page, enter the following:
 
@@ -219,7 +219,7 @@ You have been provided a list of users should have administrative roles assigned
 
 1. On SEA-SVR1, switch to Microsoft Edge.
 
-2. In the Microsoft Entra admin center, in the Navigation pane, select **Roles & admins**.
+2. In the Microsoft Entra admin center, in the Navigation pane under Entra ID, select **Roles & admins**.
 
     > Note that you can scroll down the list or use the search box to find the **Role** you are looking for.
 
@@ -231,7 +231,7 @@ You have been provided a list of users should have administrative roles assigned
 
 6. Under **Select members**, select **No member selected**, then search for and select **Allan Deyoung**.
 
-7. Select **Add**.
+7. Select **Next**-> **Assign**.
 
 8. In the navigation breadcrumbs, select **Roles & administrators | All roles**.
 
@@ -243,7 +243,7 @@ You have been provided a list of users should have administrative roles assigned
 
 12. Under **Select members**, select **No member selected**, then search for and select **Edmund Reeve**.
 
-13. Select **Add**.
+13. Select **Next**-> **Assign**.
 
 14. In the navigation breadcrumbs, select **Roles & administrators | All roles**.
 
@@ -255,7 +255,7 @@ You have been provided a list of users should have administrative roles assigned
 
 18. Under **Select members**, select **No member selected**, then search for and select **Miranda Snider**.
 
-19. Select **Add**.
+19. Select **Next**-> **Assign**..
 
 20. In the navigation pane, select **Home**.
 
@@ -277,7 +277,7 @@ You also been asked to modify the Company branding for the sign-in page.
 
 ### Task 1: Create groups by using the Microsoft Entra admin center
 
-1. On **SEA-SVR1**, in the Microsoft Entra admin center, in the navigation pane, select **Groups**.
+1. On **SEA-SVR1**, in the Microsoft Entra admin center, in the navigation pane under Entra ID, select **Groups**.
 
 2. Select **New group**.
 
@@ -357,17 +357,17 @@ You also been asked to modify the Company branding for the sign-in page.
 
 6. Select **Review + Create**, review the settings and then select **Create**.
 
-7. In the Microsoft Entra admin center, in the Navigation pane, select **Users**.
+7. In the Microsoft Entra admin center, in the Navigation pane uner Entra ID, select **Users**.
 
 8. In the user list, select **Cody Godinez**.
 
-9. In the Cody Godinez Profile page, under Manage, select **Licenses**.
+9. In the Cody Godinez Profile page, select **Licenses**.
 
    > Notice that Cody does not have any current license assignments. And that licensing must now be performed in the 365 Admin center.
 
 10. Open a new tab in **Microsoft Edge**, in the address bar, enter **https://admin.microsoft.com**.
 
-11. In the navigation pane on the left, select **Users** > **Active users**.
+11. In the navigation pane on the left, select **Users**  .
 
 12. In the user list, select **Cody Godinez** (select the name, not the checkbox).
 
