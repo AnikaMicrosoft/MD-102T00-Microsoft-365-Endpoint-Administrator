@@ -52,9 +52,9 @@ Contoso Corporation is currently managing users in both AD DS and Entra ID as se
 
 20. Expand **Contoso.com**, clear the checkbox next to **Contoso.com** and ensure that the only following check boxes are selected: **IT**, **Managers**, **Marketing**, **Research**, and **Sales**. Select **Next**.
 
-21. On the **Uniquely identifying your users** page, select **Next**.
+21. On the **Identifying your users** page, select **Next**.
 
-22. On the **Filter users and devices** page, select **Next**.
+22. On the **Filtering** page, select **Next**.
 
 23. On the **Optional features** page, review available options, but do not make any changes. Ensure that **Password hash synchronization** is selected, and then select **Next**.
 
@@ -82,7 +82,7 @@ Contoso Corporation is currently managing users in both AD DS and Entra ID as se
 
 6. At the Stay signed in prompt, select **No**. The Entra admin center opens.
 
-7. In the Microsoft Entra admin center, in the navigation pane, select **Users**.
+7. In the Microsoft Entra admin center, in the navigation pane, select **Entra ID** -> **Users**.
 
 8. Verify that you see users from your local AD DS. Ensure that these users have the value **Yes** in the **On-premises sync enabled** column. 
 
